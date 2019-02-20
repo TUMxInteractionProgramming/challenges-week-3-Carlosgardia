@@ -1,0 +1,107 @@
+/* Position of the channels area */
+#channels{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+}
+
+/* Position of the chat area */
+#chat{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 60%;
+    height: 100%;
+}
+
+/* Positioning - App bars*/
+h1{
+    height: 56px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 56px;
+    letter-spacing:normal;  
+}
+#channels h1{
+    padding-left: 66px;
+}
+#chat h1{
+    padding-left: 16px;
+}
+#moocus-img{
+    height: 48px;
+    position: absolute;
+    left: 16px;
+    top: 8px;
+}
+
+/*CHAT-BAR FAV-STAR*/
+#chat-star{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+/*channels list - chat list*/
+ul, #chat-messages{
+    position:absolute;
+    top: 56px;
+    bottom: 70px;
+    width: 100%;
+    overflow: auto;
+}
+li{
+    height: 48px;
+    padding: 16px;
+    font-size: 16px;
+}
+.channel-meta{
+    position: absolute;
+    vertical-align: middle;
+    right: 16px;
+}
+
+/*tab-bar chat-bar*/
+#tab-bar, #chat-bar{
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#chat-bar{
+    justify-content: flex-start;
+    
+}
+
+/*chat list*/
+.message p button{
+    float: right;
+    margin-top: 28px;
+}
+h3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.message h3 a {
+    width: 35%;
+}
+.message h3 em{
+    width: 35%;
+    text-align: right;
+}
+
+/*EMOJIS BOX*/
+#emojis{
+    height:260px;
+    width: 260px;
+    position: absolute;
+    bottom: 60px;
+    font-size: 28px;
+    margin-left: 16px;
+    margin-top: 284px;
+    padding: 16px;
+    overflow: auto;
+    display: none;
+}
